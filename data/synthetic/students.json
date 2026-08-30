@@ -1,0 +1,6067 @@
+[
+  {
+    "student_id": "SYNTH_STU_001",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 19.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 15.61,
+      "progression_trend": 0.18
+    },
+    "interests": {
+      "technology": 0.9,
+      "problem_solving": 0.95,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.95,
+      "observed_logic": 0.92,
+      "declared_communication": 0.61
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_002",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.82,
+      "progression_trend": -0.23
+    },
+    "interests": {
+      "technology": 0.79,
+      "problem_solving": 0.77,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.77,
+      "observed_logic": 0.64,
+      "declared_communication": 0.66
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_003",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 7.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 17.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.02,
+      "progression_trend": 0.17
+    },
+    "interests": {
+      "technology": 0.29,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.88
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_004",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.61,
+      "progression_trend": 0.4
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.76,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.76,
+      "observed_logic": 0.86,
+      "declared_communication": 0.53
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_005",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.59,
+      "progression_trend": 0.45
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.54
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_006",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 14.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.25,
+      "progression_trend": 0.66
+    },
+    "interests": {
+      "technology": 0.76,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.75,
+      "declared_communication": 0.63
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_007",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.78
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_008",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.09
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_009",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 16.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 16.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.11,
+      "progression_trend": -0.25
+    },
+    "interests": {
+      "technology": 0.93,
+      "problem_solving": 0.83,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.83,
+      "observed_logic": 0.86,
+      "declared_communication": 0.8
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 1000000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_010",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.23,
+      "progression_trend": -0.0
+    },
+    "interests": {
+      "technology": 0.63,
+      "problem_solving": 0.74,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.74,
+      "observed_logic": 0.69,
+      "declared_communication": 0.67
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_011",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 9.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 16.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.12,
+      "progression_trend": 0.65
+    },
+    "interests": {
+      "technology": 0.18,
+      "problem_solving": 0.53,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.53,
+      "observed_logic": null,
+      "declared_communication": 0.83
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_012",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.53,
+      "progression_trend": 0.21
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.78,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.78,
+      "observed_logic": 0.79,
+      "declared_communication": 0.59
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_013",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.81,
+      "progression_trend": 0.37
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.53
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_014",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 14.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.78,
+      "progression_trend": -0.37
+    },
+    "interests": {
+      "technology": 0.86,
+      "problem_solving": 0.85,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.85,
+      "observed_logic": 0.83,
+      "declared_communication": 0.64
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_015",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.66
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_016",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.17
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_017",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 19.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 17.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.9,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.36,
+      "progression_trend": -0.34
+    },
+    "interests": {
+      "technology": 0.96,
+      "problem_solving": 0.92,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.92,
+      "observed_logic": 0.95,
+      "declared_communication": 0.64
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_018",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.8,
+      "progression_trend": 0.18
+    },
+    "interests": {
+      "technology": 0.62,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.64,
+      "declared_communication": 0.57
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_019",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 7.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.16,
+      "progression_trend": -0.07
+    },
+    "interests": {
+      "technology": 0.16,
+      "problem_solving": 0.4,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.4,
+      "observed_logic": null,
+      "declared_communication": 0.74
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_020",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.04,
+      "progression_trend": -0.11
+    },
+    "interests": {
+      "technology": 0.86,
+      "problem_solving": 0.71,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.71,
+      "observed_logic": 0.89,
+      "declared_communication": 0.53
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_021",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.16,
+      "progression_trend": 0.59
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.56
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_022",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.47,
+      "progression_trend": 0.05
+    },
+    "interests": {
+      "technology": 0.71,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.7,
+      "declared_communication": 0.57
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_023",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.03
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_024",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.05
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_025",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 16.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 15.76,
+      "progression_trend": 0.26
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.97,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.97,
+      "observed_logic": 0.89,
+      "declared_communication": 0.78
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_026",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.9,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.17,
+      "progression_trend": 0.32
+    },
+    "interests": {
+      "technology": 0.57,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.7,
+      "declared_communication": 0.7
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_027",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.3,
+      "progression_trend": 0.02
+    },
+    "interests": {
+      "technology": 0.19,
+      "problem_solving": 0.6,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.6,
+      "observed_logic": null,
+      "declared_communication": 0.78
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_028",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.29,
+      "progression_trend": 0.55
+    },
+    "interests": {
+      "technology": 0.89,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.87,
+      "declared_communication": 0.58
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_029",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.17,
+      "progression_trend": 0.05
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_030",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.9,
+      "progression_trend": 0.78
+    },
+    "interests": {
+      "technology": 0.78,
+      "problem_solving": 0.83,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.83,
+      "observed_logic": 0.78,
+      "declared_communication": 0.59
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_031",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": -0.05
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_032",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.46
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_033",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 18.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.64,
+      "progression_trend": 0.62
+    },
+    "interests": {
+      "technology": 0.92,
+      "problem_solving": 0.98,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.98,
+      "observed_logic": 0.94,
+      "declared_communication": 0.78
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 1000000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_034",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.16,
+      "progression_trend": 0.37
+    },
+    "interests": {
+      "technology": 0.54,
+      "problem_solving": 0.8,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.8,
+      "observed_logic": 0.67,
+      "declared_communication": 0.63
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_035",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 9.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 5.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.78,
+      "progression_trend": 0.13
+    },
+    "interests": {
+      "technology": 0.2,
+      "problem_solving": 0.45,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.45,
+      "observed_logic": null,
+      "declared_communication": 0.74
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_036",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.18,
+      "progression_trend": 0.11
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.71,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.71,
+      "observed_logic": 0.79,
+      "declared_communication": 0.59
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_037",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.5,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.43,
+      "progression_trend": 0.57
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.57
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_038",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.79,
+      "progression_trend": 0.49
+    },
+    "interests": {
+      "technology": 0.76,
+      "problem_solving": 0.82,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.82,
+      "observed_logic": 0.71,
+      "declared_communication": 0.64
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_039",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": -0.12
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_040",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": -0.16
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_041",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 17.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 17.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.26,
+      "progression_trend": -0.01
+    },
+    "interests": {
+      "technology": 0.98,
+      "problem_solving": 0.88,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.88,
+      "observed_logic": 0.95,
+      "declared_communication": 0.72
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 500000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_042",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.33,
+      "progression_trend": 0.53
+    },
+    "interests": {
+      "technology": 0.55,
+      "problem_solving": 0.71,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.71,
+      "observed_logic": 0.62,
+      "declared_communication": 0.5
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_043",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.04,
+      "progression_trend": -0.07
+    },
+    "interests": {
+      "technology": 0.14,
+      "problem_solving": 0.51,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.51,
+      "observed_logic": null,
+      "declared_communication": 0.73
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_044",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.85,
+      "progression_trend": 0.31
+    },
+    "interests": {
+      "technology": 0.87,
+      "problem_solving": 0.71,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.71,
+      "observed_logic": 0.83,
+      "declared_communication": 0.59
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_045",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.97,
+      "progression_trend": -0.39
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.54
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_046",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 14.06,
+      "progression_trend": -0.04
+    },
+    "interests": {
+      "technology": 0.77,
+      "problem_solving": 0.83,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.83,
+      "observed_logic": 0.78,
+      "declared_communication": 0.64
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_047",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": -0.13
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_048",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.26
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_049",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 16.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 17.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.15,
+      "progression_trend": 0.46
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.98,
+      "declared_communication": 0.72
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 1000000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_050",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.38,
+      "progression_trend": 0.62
+    },
+    "interests": {
+      "technology": 0.53,
+      "problem_solving": 0.69,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.69,
+      "observed_logic": 0.67,
+      "declared_communication": 0.7
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_051",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 9.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 7.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.0,
+      "progression_trend": 0.7
+    },
+    "interests": {
+      "technology": 0.35,
+      "problem_solving": 0.49,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.49,
+      "observed_logic": null,
+      "declared_communication": 0.79
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_052",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.18,
+      "progression_trend": -0.25
+    },
+    "interests": {
+      "technology": 0.96,
+      "problem_solving": 0.84,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.84,
+      "observed_logic": 0.84,
+      "declared_communication": 0.56
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_053",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.8,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.52,
+      "progression_trend": -0.37
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.54
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_054",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.21,
+      "progression_trend": 0.56
+    },
+    "interests": {
+      "technology": 0.75,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.81,
+      "declared_communication": 0.6
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_055",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.06
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_056",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.13
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_057",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 19.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 18.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.1,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.52,
+      "progression_trend": -0.14
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.93,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.93,
+      "observed_logic": 0.91,
+      "declared_communication": 0.61
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 500000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_058",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.18,
+      "progression_trend": -0.08
+    },
+    "interests": {
+      "technology": 0.59,
+      "problem_solving": 0.69,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.69,
+      "observed_logic": 0.74,
+      "declared_communication": 0.63
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_059",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 6.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 5.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 18.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.79,
+      "progression_trend": -0.22
+    },
+    "interests": {
+      "technology": 0.11,
+      "problem_solving": 0.57,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.57,
+      "observed_logic": null,
+      "declared_communication": 0.9
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_060",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 9.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.04,
+      "progression_trend": 0.07
+    },
+    "interests": {
+      "technology": 0.85,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.76,
+      "declared_communication": 0.46
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_061",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.12,
+      "progression_trend": 0.74
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.52
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_062",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.3,
+      "progression_trend": 0.5
+    },
+    "interests": {
+      "technology": 0.76,
+      "problem_solving": 0.79,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.79,
+      "observed_logic": 0.73,
+      "declared_communication": 0.61
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_063",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 14.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": -0.48
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_064",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.1
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_065",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 16.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.3,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 14.99,
+      "progression_trend": -0.42
+    },
+    "interests": {
+      "technology": 0.82,
+      "problem_solving": 0.87,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.87,
+      "observed_logic": 0.96,
+      "declared_communication": 0.62
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_066",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.9,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.24,
+      "progression_trend": 0.62
+    },
+    "interests": {
+      "technology": 0.78,
+      "problem_solving": 0.75,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.75,
+      "observed_logic": 0.6,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_067",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.09,
+      "progression_trend": 0.55
+    },
+    "interests": {
+      "technology": 0.33,
+      "problem_solving": 0.52,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.52,
+      "observed_logic": null,
+      "declared_communication": 0.73
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_068",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.44,
+      "progression_trend": 0.25
+    },
+    "interests": {
+      "technology": 0.97,
+      "problem_solving": 0.77,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.77,
+      "observed_logic": 0.85,
+      "declared_communication": 0.52
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_069",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.4,
+      "progression_trend": 0.1
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.53
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_070",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.55,
+      "progression_trend": 0.69
+    },
+    "interests": {
+      "technology": 0.88,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.77,
+      "declared_communication": 0.6
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_071",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.03
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_072",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.03
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_073",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 16.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 17.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 15.66,
+      "progression_trend": -0.39
+    },
+    "interests": {
+      "technology": 0.86,
+      "problem_solving": 0.99,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.99,
+      "observed_logic": 0.86,
+      "declared_communication": 0.67
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_074",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.75,
+      "progression_trend": -0.41
+    },
+    "interests": {
+      "technology": 0.56,
+      "problem_solving": 0.69,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.69,
+      "observed_logic": 0.73,
+      "declared_communication": 0.51
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_075",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.41,
+      "progression_trend": 0.74
+    },
+    "interests": {
+      "technology": 0.31,
+      "problem_solving": 0.43,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.43,
+      "observed_logic": null,
+      "declared_communication": 0.73
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_076",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.4,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.96,
+      "progression_trend": 0.37
+    },
+    "interests": {
+      "technology": 0.88,
+      "problem_solving": 0.87,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.87,
+      "observed_logic": 0.8,
+      "declared_communication": 0.52
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_077",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.9,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.61,
+      "progression_trend": -0.32
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.6
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_078",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.2,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.9,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.96,
+      "progression_trend": 0.29
+    },
+    "interests": {
+      "technology": 0.86,
+      "problem_solving": 0.81,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.81,
+      "observed_logic": 0.75,
+      "declared_communication": 0.6
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_079",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.43
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_080",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.46
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_081",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 17.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 16.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.47,
+      "progression_trend": -0.12
+    },
+    "interests": {
+      "technology": 0.82,
+      "problem_solving": 0.99,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.99,
+      "observed_logic": 0.87,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 1000000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_082",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.2,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 13.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.74,
+      "progression_trend": 0.64
+    },
+    "interests": {
+      "technology": 0.58,
+      "problem_solving": 0.73,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.73,
+      "observed_logic": 0.62,
+      "declared_communication": 0.51
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_083",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 9.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.5,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 14.0,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.22,
+      "progression_trend": 0.45
+    },
+    "interests": {
+      "technology": 0.23,
+      "problem_solving": 0.51,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.51,
+      "observed_logic": null,
+      "declared_communication": 0.73
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_084",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 13.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 13.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 10.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.34,
+      "progression_trend": 0.42
+    },
+    "interests": {
+      "technology": 0.94,
+      "problem_solving": 0.76,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.76,
+      "observed_logic": 0.86,
+      "declared_communication": 0.5
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_085",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.66,
+      "progression_trend": 0.11
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.57
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_086",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.71,
+      "progression_trend": 0.35
+    },
+    "interests": {
+      "technology": 0.83,
+      "problem_solving": 0.8,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.8,
+      "observed_logic": 0.85,
+      "declared_communication": 0.58
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_087",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": -0.17
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_088",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.59
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_089",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 14.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 14.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.1,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 14.91,
+      "progression_trend": 0.47
+    },
+    "interests": {
+      "technology": 0.82,
+      "problem_solving": 0.83,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.83,
+      "observed_logic": 0.93,
+      "declared_communication": 0.73
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_090",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.5,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.2,
+      "progression_trend": 0.33
+    },
+    "interests": {
+      "technology": 0.73,
+      "problem_solving": 0.66,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.66,
+      "observed_logic": 0.61,
+      "declared_communication": 0.58
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_091",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 8.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 5.6,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 18.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.7,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.73,
+      "progression_trend": 0.22
+    },
+    "interests": {
+      "technology": 0.11,
+      "problem_solving": 0.44,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.44,
+      "observed_logic": null,
+      "declared_communication": 0.9
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_092",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 14.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.1,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.6,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 11.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.55,
+      "progression_trend": 0.38
+    },
+    "interests": {
+      "technology": 0.9,
+      "problem_solving": 0.89,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.89,
+      "observed_logic": 0.86,
+      "declared_communication": 0.58
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_093",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 10.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.4,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 12.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 11.18,
+      "progression_trend": 0.5
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.7
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.57
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 200000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "F",
+      "category_tag": "undecided"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_094",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 15.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 12.8,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.2,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 13.98,
+      "progression_trend": 0.23
+    },
+    "interests": {
+      "technology": 0.71,
+      "problem_solving": 0.76,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.76,
+      "observed_logic": 0.85,
+      "declared_communication": 0.69
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 50000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": true
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "M",
+      "category_tag": "financial_constrained"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_095",
+    "academic": {
+      "level": "Terminale",
+      "series": null,
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 10.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 11.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.9,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 10.67,
+      "progression_trend": 0.14
+    },
+    "interests": {
+      "technology": 0.5,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.55
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": null,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "F",
+      "category_tag": "incomplete_data"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_096",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 7.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 15.0,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 8.5,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.33,
+      "progression_trend": 0.68
+    },
+    "interests": {
+      "technology": 0.95,
+      "problem_solving": 0.9,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.9,
+      "observed_logic": 0.4,
+      "declared_communication": 0.75
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 300000.0,
+      "preferred_region": "Bobo-Dioulasso",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Bobo-Dioulasso",
+      "gender": "M",
+      "category_tag": "contradictory_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_097",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 19.5,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 16.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 13.3,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 9.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 16.56,
+      "progression_trend": 0.68
+    },
+    "interests": {
+      "technology": 0.91,
+      "problem_solving": 0.99,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.99,
+      "observed_logic": 0.91,
+      "declared_communication": 0.67
+    },
+    "preferences": {
+      "preferred_study_duration": "long",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 500000.0,
+      "preferred_region": "Koudougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Ingénieur",
+      "Médecin"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Koudougou",
+      "gender": "F",
+      "category_tag": "excellent_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_098",
+    "academic": {
+      "level": "Terminale",
+      "series": "D",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 12.4,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 11.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 12.3,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.8,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.0,
+      "progression_trend": -0.49
+    },
+    "interests": {
+      "technology": 0.52,
+      "problem_solving": 0.7,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.7,
+      "observed_logic": 0.61,
+      "declared_communication": 0.62
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 350000.0,
+      "preferred_region": "Ouahigouya",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouahigouya",
+      "gender": "M",
+      "category_tag": "average_scientific"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_099",
+    "academic": {
+      "level": "Terminale",
+      "series": "A",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 6.0,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 6.7,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 16.7,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.6,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 9.79,
+      "progression_trend": 0.31
+    },
+    "interests": {
+      "technology": 0.27,
+      "problem_solving": 0.5,
+      "health": 0.2,
+      "law": 0.85,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.5,
+      "observed_logic": null,
+      "declared_communication": 0.83
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "balanced",
+      "geographical_mobility": false
+    },
+    "constraints": {
+      "max_budget_xof": 250000.0,
+      "preferred_region": "Fada N'Gourma",
+      "has_financial_aid_need": false
+    },
+    "goals": [
+      "Juriste"
+    ],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Fada N'Gourma",
+      "gender": "F",
+      "category_tag": "literary_profile"
+    }
+  },
+  {
+    "student_id": "SYNTH_STU_100",
+    "academic": {
+      "level": "Terminale",
+      "series": "F2",
+      "records": [
+        {
+          "subject": "mathematics",
+          "score": 11.9,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "physics",
+          "score": 15.3,
+          "coefficient": 4.0
+        },
+        {
+          "subject": "french",
+          "score": 9.3,
+          "coefficient": 3.0
+        },
+        {
+          "subject": "philosophy",
+          "score": 10.3,
+          "coefficient": 2.0
+        }
+      ],
+      "overall_average": 12.16,
+      "progression_trend": 0.46
+    },
+    "interests": {
+      "technology": 0.9,
+      "problem_solving": 0.78,
+      "health": 0.2,
+      "law": 0.2,
+      "economy": 0.3
+    },
+    "aptitudes": {
+      "declared_logic": 0.78,
+      "observed_logic": 0.8,
+      "declared_communication": 0.46
+    },
+    "preferences": {
+      "preferred_study_duration": "short",
+      "study_style": "practical",
+      "geographical_mobility": true
+    },
+    "constraints": {
+      "max_budget_xof": 400000.0,
+      "preferred_region": "Ouagadougou",
+      "has_financial_aid_need": false
+    },
+    "goals": [],
+    "context": {
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "gender": "M",
+      "category_tag": "technical_profile"
+    }
+  }
+]

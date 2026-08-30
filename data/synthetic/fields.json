@@ -1,0 +1,271 @@
+[
+  {
+    "field_id": "FIELD_INFO_01",
+    "name": "Informatique et Génie Logiciel",
+    "category": "Informatique",
+    "academic_requirements": {
+      "mathematics": 0.90,
+      "physics": 0.65,
+      "french": 0.45,
+      "english": 0.50
+    },
+    "required_min_grades": {
+      "mathematics": 12.0,
+      "physics": 10.0
+    },
+    "mandatory_bac_series": ["C", "D", "E", "F2", "F3"],
+    "interest_profile": {
+      "technology": 0.95,
+      "problem_solving": 0.90,
+      "data": 0.85,
+      "computer_science": 0.95
+    },
+    "aptitude_profile": {
+      "logic": 0.90,
+      "organization": 0.70,
+      "practical_work": 0.80
+    },
+    "study_style": "practical",
+    "duration_years": 3,
+    "indicative_cost_xof": 350000.0,
+    "available_regions": ["Ouagadougou", "Bobo-Dioulasso"],
+    "institutions": [
+      "Université Joseph Ki-Zerbo (UJKZ - UFR/SEA)",
+      "Université Virtual du Burkina Faso (UV-BF)",
+      "Institut Burkinabè des Arts et Métiers (IBAM)"
+    ],
+    "career_paths": ["Développeur Logiciel", "Ingénieur DevOps", "Administrateur Système", "Data Analyst"],
+    "required_skills": ["Algorithmique", "Programmation Python/Java", "Bases de données SQL", "Anglais technique"],
+    "source": "Guide de l'Orientation Officiel MESRI 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_MED_01",
+    "name": "Médecine Générale",
+    "category": "Santé",
+    "academic_requirements": {
+      "physics": 0.90,
+      "mathematics": 0.70,
+      "french": 0.60
+    },
+    "required_min_grades": {
+      "physics": 13.0,
+      "mathematics": 12.0
+    },
+    "mandatory_bac_series": ["C", "D"],
+    "interest_profile": {
+      "health": 0.98,
+      "science": 0.90,
+      "people_oriented": 0.90
+    },
+    "aptitude_profile": {
+      "logic": 0.85,
+      "organization": 0.90,
+      "communication": 0.80
+    },
+    "study_style": "balanced",
+    "duration_years": 7,
+    "indicative_cost_xof": 500000.0,
+    "available_regions": ["Ouagadougou", "Bobo-Dioulasso"],
+    "institutions": [
+      "Université Joseph Ki-Zerbo (UFR/SDS)",
+      "Université Nazi Boni (UNB - SDS)"
+    ],
+    "career_paths": ["Médecin Généraliste", "Santé Publique", "Secteur Hospitalier"],
+    "required_skills": ["Anatomie", "Analyse diagnostique", "Relation patient", "Endurance"],
+    "source": "Guide Officiel UFR/SDS UJKZ",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_AGRO_01",
+    "name": "Agronomie et Développement Rural",
+    "category": "Agriculture",
+    "academic_requirements": {
+      "physics": 0.80,
+      "mathematics": 0.70,
+      "french": 0.50
+    },
+    "required_min_grades": {
+      "physics": 11.0,
+      "mathematics": 10.0
+    },
+    "mandatory_bac_series": ["C", "D", "A4"],
+    "interest_profile": {
+      "agriculture": 0.95,
+      "science": 0.80,
+      "technology": 0.60
+    },
+    "aptitude_profile": {
+      "practical_work": 0.90,
+      "organization": 0.75,
+      "logic": 0.70
+    },
+    "study_style": "practical",
+    "duration_years": 3,
+    "indicative_cost_xof": 250000.0,
+    "available_regions": ["Bobo-Dioulasso", "Koudougou", "Ouagadougou"],
+    "institutions": [
+      "Université Nazi Boni (IDR)",
+      "Université Norbert Zongo (UNZ)"
+    ],
+    "career_paths": ["Ingénieur Agronome", "Conseiller Agricole", "Gestionnaire d'Exploitation"],
+    "required_skills": ["Gestion des sols", "Techniques d'irrigation", "Agroéconomie"],
+    "source": "Catalogue IDR UNB 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_LAW_01",
+    "name": "Droit Privé et Public",
+    "category": "Droit",
+    "academic_requirements": {
+      "french": 0.90,
+      "philosophy": 0.85,
+      "history_geo": 0.75
+    },
+    "required_min_grades": {
+      "french": 12.0,
+      "philosophy": 11.0
+    },
+    "mandatory_bac_series": ["A", "D", "G2"],
+    "interest_profile": {
+      "law": 0.95,
+      "letters": 0.80,
+      "ideas_oriented": 0.85,
+      "people_oriented": 0.75
+    },
+    "aptitude_profile": {
+      "communication": 0.90,
+      "logic": 0.80,
+      "theoretical_work": 0.85
+    },
+    "study_style": "theory",
+    "duration_years": 3,
+    "indicative_cost_xof": 200000.0,
+    "available_regions": ["Ouagadougou", "Bobo-Dioulasso", "Koudougou"],
+    "institutions": [
+      "Université Thomas Sankara (UTS - UFR/SJP)",
+      "Université Norbert Zongo"
+    ],
+    "career_paths": ["Juriste d'Entreprise", "Avocat", "Magistrat", "Conseiller Juridique"],
+    "required_skills": ["Analyse juridique", "Expression écrite et orale", "Argumentation"],
+    "source": "Catalogue UFR/SJP UTS 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_ECON_01",
+    "name": "Économie et Gestion des Entreprises",
+    "category": "Économie",
+    "academic_requirements": {
+      "mathematics": 0.85,
+      "french": 0.75,
+      "history_geo": 0.60
+    },
+    "required_min_grades": {
+      "mathematics": 11.0,
+      "french": 11.0
+    },
+    "mandatory_bac_series": ["C", "D", "A", "G2"],
+    "interest_profile": {
+      "economy": 0.95,
+      "commerce": 0.85,
+      "data": 0.80
+    },
+    "aptitude_profile": {
+      "logic": 0.80,
+      "organization": 0.85,
+      "communication": 0.70
+    },
+    "study_style": "balanced",
+    "duration_years": 3,
+    "indicative_cost_xof": 300000.0,
+    "available_regions": ["Ouagadougou", "Bobo-Dioulasso"],
+    "institutions": [
+      "Université Thomas Sankara (UTS - UFR/SEG)",
+      "Université Joseph Ki-Zerbo"
+    ],
+    "career_paths": ["Économiste", "Auditeur Financier", "Chef de Projet Économique", "Consultant"],
+    "required_skills": ["Comptabilité", "Analyse financière", "Micro/Macroéconomie"],
+    "source": "Catalogue UFR/SEG UTS 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_ELEC_01",
+    "name": "Génie Électrique et Énergies Renouvelables",
+    "category": "Ingénierie",
+    "academic_requirements": {
+      "physics": 0.90,
+      "mathematics": 0.85,
+      "french": 0.50
+    },
+    "required_min_grades": {
+      "physics": 12.0,
+      "mathematics": 11.0
+    },
+    "mandatory_bac_series": ["C", "D", "E", "F1", "F2", "F3"],
+    "interest_profile": {
+      "engineering": 0.95,
+      "technology": 0.90,
+      "machines_oriented": 0.85
+    },
+    "aptitude_profile": {
+      "practical_work": 0.90,
+      "logic": 0.85,
+      "organization": 0.75
+    },
+    "study_style": "practical",
+    "duration_years": 3,
+    "indicative_cost_xof": 400000.0,
+    "available_regions": ["Ouagadougou", "Koudougou"],
+    "institutions": [
+      "École Polytechnique de Ouagadougou (EPO)",
+      "Institut Supérieur de Génie Électrique (ISGE-BF)"
+    ],
+    "career_paths": ["Ingénieur Électricien", "Spécialiste Énergie Solaire", "Responsable Maintenance"],
+    "required_skills": ["Électronique", "Installations solaires photovoltaïques", "Automatisme"],
+    "source": "Guide Officiel ISGE / EPO 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_STAT_01",
+    "name": "Statistiques et Démographie",
+    "category": "Statistiques",
+    "academic_requirements": {
+      "mathematics": 0.95,
+      "french": 0.60,
+      "physics": 0.50
+    },
+    "required_min_grades": {
+      "mathematics": 13.0
+    },
+    "mandatory_bac_series": ["C", "D", "E"],
+    "interest_profile": {
+      "data": 0.95,
+      "science": 0.85,
+      "economy": 0.75
+    },
+    "aptitude_profile": {
+      "logic": 0.95,
+      "theoretical_work": 0.85,
+      "organization": 0.80
+    },
+    "study_style": "theory",
+    "duration_years": 3,
+    "indicative_cost_xof": 350000.0,
+    "available_regions": ["Ouagadougou"],
+    "institutions": [
+      "Université Joseph Ki-Zerbo (UJKZ)",
+      "INSD Burkina Faso"
+    ],
+    "career_paths": ["Ingénieur Statisitcien", "Data Scientist", "Démographe"],
+    "required_skills": ["Statistiques inférentielles", "Logiciels R / Stata / Python", "Sondages"],
+    "source": "Guide INSD / MESRI 2024",
+    "verified_at": "2024-06-30",
+    "confidence_level": 1.0
+  }
+]
