@@ -13,7 +13,7 @@
       "mathematics": 12.0,
       "physics": 10.0
     },
-    "mandatory_bac_series": ["C", "D", "E", "F2", "F3"],
+    "mandatory_bac_series": ["C", "D", "E", "F2", "F3", "G2"],
     "interest_profile": {
       "technology": 0.95,
       "problem_solving": 0.90,
@@ -31,13 +31,52 @@
     "available_regions": ["Ouagadougou", "Bobo-Dioulasso"],
     "institutions": [
       "Université Joseph Ki-Zerbo (UJKZ - UFR/SEA)",
-      "Université Virtual du Burkina Faso (UV-BF)",
-      "Institut Burkinabè des Arts et Métiers (IBAM)"
+      "Université Virtuelle du Burkina Faso (UV-BF)",
+      "Institut Burkinabè des Arts et Métiers (IBAM - UJKZ)"
     ],
     "career_paths": ["Développeur Logiciel", "Ingénieur DevOps", "Administrateur Système", "Data Analyst"],
     "required_skills": ["Algorithmique", "Programmation Python/Java", "Bases de données SQL", "Anglais technique"],
-    "source": "Guide de l'Orientation Officiel MESRI 2024",
-    "verified_at": "2024-06-30",
+    "source": "Carte Universitaire MESRI & Catalogue Officiel UJKZ / UV-BF 2025-2026",
+    "verified_at": "2026-01-15",
+    "confidence_level": 1.0
+  },
+  {
+    "field_id": "FIELD_CPGE_EPO",
+    "name": "Classes Préparatoires aux Grandes Écoles (CPGE - MPSI / PCSI)",
+    "category": "Ingénierie",
+    "academic_requirements": {
+      "mathematics": 0.95,
+      "physics": 0.90,
+      "french": 0.60,
+      "english": 0.60
+    },
+    "required_min_grades": {
+      "mathematics": 14.0,
+      "physics": 13.0
+    },
+    "mandatory_bac_series": ["C", "D", "E"],
+    "interest_profile": {
+      "engineering": 0.98,
+      "problem_solving": 0.95,
+      "science": 0.95,
+      "technology": 0.90
+    },
+    "aptitude_profile": {
+      "logic": 0.95,
+      "theoretical_work": 0.90,
+      "organization": 0.90
+    },
+    "study_style": "theory",
+    "duration_years": 2,
+    "indicative_cost_xof": 200000.0,
+    "available_regions": ["Ouagadougou"],
+    "institutions": [
+      "École Polytechnique de Ouagadougou (EPO / UPB)"
+    ],
+    "career_paths": ["Ingénieur de Conception", "Ingénieur Télécoms", "Ingénieur Industriel"],
+    "required_skills": ["Mathématiques avancées", "Physique appliquée", "Sciences de l'Ingénieur", "Rueur intellectuelle"],
+    "source": "Communiqué Officiel de Recrutement CPGE EPO 2025-2026",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -74,8 +113,8 @@
     ],
     "career_paths": ["Médecin Généraliste", "Santé Publique", "Secteur Hospitalier"],
     "required_skills": ["Anatomie", "Analyse diagnostique", "Relation patient", "Endurance"],
-    "source": "Guide Officiel UFR/SDS UJKZ",
-    "verified_at": "2024-06-30",
+    "source": "Guide Officiel UFR/SDS UJKZ & UNB 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -112,8 +151,8 @@
     ],
     "career_paths": ["Ingénieur Agronome", "Conseiller Agricole", "Gestionnaire d'Exploitation"],
     "required_skills": ["Gestion des sols", "Techniques d'irrigation", "Agroéconomie"],
-    "source": "Catalogue IDR UNB 2024",
-    "verified_at": "2024-06-30",
+    "source": "Catalogue IDR UNB 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -151,8 +190,8 @@
     ],
     "career_paths": ["Juriste d'Entreprise", "Avocat", "Magistrat", "Conseiller Juridique"],
     "required_skills": ["Analyse juridique", "Expression écrite et orale", "Argumentation"],
-    "source": "Catalogue UFR/SJP UTS 2024",
-    "verified_at": "2024-06-30",
+    "source": "Catalogue UFR/SJP UTS 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -184,13 +223,13 @@
     "indicative_cost_xof": 300000.0,
     "available_regions": ["Ouagadougou", "Bobo-Dioulasso"],
     "institutions": [
-      "Université Thomas Sankara (UTS - UFR/SEG)",
+      "Université Thomas Sankara (UTS - UFR/SEG & IFOAD)",
       "Université Joseph Ki-Zerbo"
     ],
     "career_paths": ["Économiste", "Auditeur Financier", "Chef de Projet Économique", "Consultant"],
     "required_skills": ["Comptabilité", "Analyse financière", "Micro/Macroéconomie"],
-    "source": "Catalogue UFR/SEG UTS 2024",
-    "verified_at": "2024-06-30",
+    "source": "Catalogue UFR/SEG & IFOAD UTS 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -222,13 +261,14 @@
     "indicative_cost_xof": 400000.0,
     "available_regions": ["Ouagadougou", "Koudougou"],
     "institutions": [
-      "École Polytechnique de Ouagadougou (EPO)",
-      "Institut Supérieur de Génie Électrique (ISGE-BF)"
+      "École Polytechnique de Ouagadougou (EPO / UPB)",
+      "Institut Supérieur de Génie Électrique (ISGE-BF)",
+      "Institut de Formation en Technologies Solaires Appliquées (IFTSA - UJKZ)"
     ],
     "career_paths": ["Ingénieur Électricien", "Spécialiste Énergie Solaire", "Responsable Maintenance"],
     "required_skills": ["Électronique", "Installations solaires photovoltaïques", "Automatisme"],
-    "source": "Guide Officiel ISGE / EPO 2024",
-    "verified_at": "2024-06-30",
+    "source": "Guide Officiel ISGE / IFTSA-UJKZ / EPO 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   },
   {
@@ -262,10 +302,10 @@
       "Université Joseph Ki-Zerbo (UJKZ)",
       "INSD Burkina Faso"
     ],
-    "career_paths": ["Ingénieur Statisitcien", "Data Scientist", "Démographe"],
+    "career_paths": ["Ingénieur Statisticien", "Data Scientist", "Démographe"],
     "required_skills": ["Statistiques inférentielles", "Logiciels R / Stata / Python", "Sondages"],
-    "source": "Guide INSD / MESRI 2024",
-    "verified_at": "2024-06-30",
+    "source": "Guide INSD / MESRI 2025",
+    "verified_at": "2026-01-15",
     "confidence_level": 1.0
   }
 ]
