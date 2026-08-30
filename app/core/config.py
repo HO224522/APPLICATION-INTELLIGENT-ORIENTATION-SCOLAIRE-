@@ -14,8 +14,14 @@ class Settings(BaseModel):
     WEIGHT_GOAL: float = 0.10
     WEIGHT_FEASIBILITY: float = 0.10
 
-    # Data privacy settings
+    # Data privacy & cybersecurity settings
     ENFORCE_DATA_MINIMIZATION: bool = True
     ANONYMIZE_MINORS_DATA: bool = True
+    MAX_LOGIN_ATTEMPTS: int = 5
+    ENABLE_RATE_LIMITING: bool = True
+
+    # Free API Integrations
+    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
+    BREVO_API_KEY: str = os.getenv("BREVO_API_KEY", "")
 
 settings = Settings()

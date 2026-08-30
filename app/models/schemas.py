@@ -74,6 +74,7 @@ class StudentContext(BaseModel):
     city: Optional[str] = None
     gender: Optional[str] = None
     socioeconomic_status: Optional[str] = None
+    category_tag: Optional[str] = None
 
 class StudentProfile(BaseModel):
     student_id: str
