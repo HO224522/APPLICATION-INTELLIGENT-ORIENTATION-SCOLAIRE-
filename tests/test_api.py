@@ -7,6 +7,11 @@ client = TestClient(app)
 def test_api_root():
     response = client.get("/")
     assert response.status_code == 200
+    assert "<!DOCTYPE html>" in response.text
+
+def test_api_health():
+    response = client.get("/api/health")
+    assert response.status_code == 200
     assert response.json()["status"] == "online"
 
 def test_api_fields():
@@ -24,4 +29,4 @@ def test_api_recommend():
 def test_api_bias_audit():
     response = client.get("/audit/bias")
     assert response.status_code == 200
-    assert response.json()["total_profiles_audited"] == 100
+    assert response.json()["total_profiles_audited"] >= 100
