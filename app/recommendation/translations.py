@@ -7,6 +7,13 @@ FRENCH_KEY_MAP = {
     "english": "Anglais",
     "svt": "SVT (Sciences de la Vie et de la Terre)",
     "history_geo": "Histoire-Géographie",
+    "electronics": "Électronique & Schémas",
+    "electrotechnics": "Électrotechnique",
+    "accounting": "Comptabilité & Finance",
+    "economics": "Économie & Droit",
+    "mechanics": "Génie Mécanique & Construction",
+    "management": "Gestion d'Entreprise",
+    "secretarial": "Techniques de Secrétariat",
     # Interests
     "technology": "Technologie",
     "health": "Santé",

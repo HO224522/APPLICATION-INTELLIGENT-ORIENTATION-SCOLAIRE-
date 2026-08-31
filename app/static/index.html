@@ -127,36 +127,9 @@
                             </div>
                         </div>
 
-                        <h6 class="fw-bold text-secondary mt-2">Notes scolaires (/20)</h6>
-                        <div class="row">
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Mathématiques</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="math_score" value="16.5">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Physique-Chimie</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="phys_score" value="14.0">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">SVT (Biologie)</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="svt_score" value="15.0">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Français</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="fr_score" value="13.0">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Anglais</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="ang_score" value="14.5">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Histoire-Géographie</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="hg_score" value="13.5">
-                            </div>
-                            <div class="col-6 mb-2">
-                                <label class="small text-muted">Philosophie</label>
-                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="phil_score" value="12.0">
-                            </div>
+                        <h6 class="fw-bold text-secondary mt-2">Notes scolaires selon la Série (/20)</h6>
+                        <div class="row" id="dynamicSubjectsContainer">
+                            <!-- Dynamically injected subject fields -->
                         </div>
 
                         <h6 class="fw-bold text-secondary mt-3">Centres d'intérêt & Préférences</h6>
@@ -240,26 +213,95 @@
     <script>
         let currentStudentProfile = null;
 
+        const SERIES_SUBJECTS = {
+            "D": [
+                { key: "mathematics", label: "Mathématiques", coef: 4, defaultVal: 15.0 },
+                { key: "physics", label: "Physique-Chimie", coef: 4, defaultVal: 14.0 },
+                { key: "svt", label: "SVT (Sciences)", coef: 5, defaultVal: 16.0 },
+                { key: "french", label: "Français", coef: 3, defaultVal: 12.5 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 13.0 },
+                { key: "philosophy", label: "Philosophie", coef: 2, defaultVal: 11.5 }
+            ],
+            "C": [
+                { key: "mathematics", label: "Mathématiques", coef: 5, defaultVal: 16.5 },
+                { key: "physics", label: "Physique-Chimie", coef: 5, defaultVal: 15.0 },
+                { key: "svt", label: "SVT", coef: 2, defaultVal: 12.0 },
+                { key: "french", label: "Français", coef: 3, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 14.0 },
+                { key: "philosophy", label: "Philosophie", coef: 2, defaultVal: 11.0 }
+            ],
+            "A": [
+                { key: "french", label: "Français", coef: 5, defaultVal: 15.0 },
+                { key: "philosophy", label: "Philosophie", coef: 4, defaultVal: 14.5 },
+                { key: "history_geo", label: "Histoire-Géographie", coef: 4, defaultVal: 14.0 },
+                { key: "english", label: "Anglais", coef: 4, defaultVal: 15.0 },
+                { key: "mathematics", label: "Mathématiques", coef: 2, defaultVal: 10.0 }
+            ],
+            "E": [
+                { key: "mathematics", label: "Mathématiques", coef: 5, defaultVal: 16.0 },
+                { key: "physics", label: "Physique-Chimie", coef: 4, defaultVal: 14.5 },
+                { key: "mechanics", label: "Génie Mécanique & Construction", coef: 5, defaultVal: 15.0 },
+                { key: "french", label: "Français", coef: 3, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 13.0 }
+            ],
+            "F2": [
+                { key: "electronics", label: "Électronique & Schémas", coef: 6, defaultVal: 16.5 },
+                { key: "electrotechnics", label: "Électrotechnique", coef: 4, defaultVal: 15.0 },
+                { key: "mathematics", label: "Mathématiques", coef: 4, defaultVal: 14.0 },
+                { key: "physics", label: "Physique Appliquée", coef: 4, defaultVal: 13.5 },
+                { key: "french", label: "Français", coef: 2, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 13.0 }
+            ],
+            "G2": [
+                { key: "accounting", label: "Comptabilité & Finance", coef: 6, defaultVal: 16.0 },
+                { key: "economics", label: "Économie & Droit", coef: 4, defaultVal: 14.5 },
+                { key: "management", label: "Gestion d'Entreprise", coef: 4, defaultVal: 15.0 },
+                { key: "mathematics", label: "Mathématiques de Gestion", coef: 3, defaultVal: 13.0 },
+                { key: "french", label: "Français", coef: 3, defaultVal: 12.5 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 13.5 }
+            ]
+        };
+
+        function renderSubjectInputs() {
+            const seriesSelect = document.getElementById('series');
+            const selectedSeries = seriesSelect.value || "D";
+            const subjects = SERIES_SUBJECTS[selectedSeries] || SERIES_SUBJECTS["D"];
+
+            const container = document.getElementById('dynamicSubjectsContainer');
+            container.innerHTML = '';
+
+            subjects.forEach(sub => {
+                const col = document.createElement('div');
+                col.className = 'col-6 mb-2';
+                col.innerHTML = `
+                    <label class="small text-muted">${sub.label} (Coef ${sub.coef})</label>
+                    <input type="number" step="0.5" max="20" min="0" class="form-control subject-input"
+                           data-subject="${sub.key}" data-coef="${sub.coef}" value="${sub.defaultVal}">
+                `;
+                container.appendChild(col);
+            });
+        }
+
+        document.getElementById('series').addEventListener('change', renderSubjectInputs);
+        window.addEventListener('DOMContentLoaded', renderSubjectInputs);
+
         function buildStudentProfileFromForm() {
-            const math = parseFloat(document.getElementById('math_score').value) || 10;
-            const phys = parseFloat(document.getElementById('phys_score').value) || 10;
-            const svt = parseFloat(document.getElementById('svt_score').value) || 10;
-            const fr = parseFloat(document.getElementById('fr_score').value) || 10;
-            const ang = parseFloat(document.getElementById('ang_score').value) || 10;
-            const hg = parseFloat(document.getElementById('hg_score').value) || 10;
-            const phil = parseFloat(document.getElementById('phil_score').value) || 10;
+            const inputs = document.querySelectorAll('.subject-input');
+            const records = [];
+            let totalWeightedScore = 0;
+            let totalCoef = 0;
 
-            const records = [
-                { subject: "mathematics", score: math, coefficient: 4.0 },
-                { subject: "physics", score: phys, coefficient: 4.0 },
-                { subject: "svt", score: svt, coefficient: 4.0 },
-                { subject: "french", score: fr, coefficient: 3.0 },
-                { subject: "english", score: ang, coefficient: 2.0 },
-                { subject: "history_geo", score: hg, coefficient: 3.0 },
-                { subject: "philosophy", score: phil, coefficient: 2.0 }
-            ];
+            inputs.forEach(input => {
+                const subjKey = input.getAttribute('data-subject');
+                const coef = parseFloat(input.getAttribute('data-coef')) || 1.0;
+                const score = parseFloat(input.value) || 10.0;
 
-            const overallAvg = (math*4 + phys*4 + svt*4 + fr*3 + ang*2 + hg*3 + phil*2) / 22.0;
+                records.push({ subject: subjKey, score: score, coefficient: coef });
+                totalWeightedScore += score * coef;
+                totalCoef += coef;
+            });
+
+            const overallAvg = totalCoef > 0 ? (totalWeightedScore / totalCoef) : 10.0;
 
             return {
                 student_id: document.getElementById('student_id').value,
