@@ -13,7 +13,10 @@ FRENCH_KEY_MAP = {
     "economics": "Économie & Droit",
     "mechanics": "Génie Mécanique & Construction",
     "management": "Gestion d'Entreprise",
-    "secretarial": "Techniques de Secrétariat",
+    "secretarial": "Techniques de Secrétariat & Bureautique",
+    "technical_drawing": "Dessin Technique & Schémas",
+    "civil_engineering": "Génie Civil & Construction",
+    "building_tech": "Technologie du Bâtiment",
     # Interests
     "technology": "Technologie",
     "health": "Santé",

@@ -117,12 +117,16 @@
                             <div class="col-6 mb-3">
                                 <label class="form-label fw-semibold">Série de BAC</label>
                                 <select class="form-select" id="series">
-                                    <option value="D">Série D (Scientifique)</option>
-                                    <option value="C">Série C (Maths/Physique)</option>
-                                    <option value="A">Série A (Littéraire)</option>
-                                    <option value="E">Série E (Technique)</option>
+                                    <option value="D">Série D (Sciences / SVT)</option>
+                                    <option value="C">Série C (Maths / Physique)</option>
+                                    <option value="A">Série A (Littéraire / Langues)</option>
+                                    <option value="E">Série E (Technique / Maths)</option>
+                                    <option value="F1">Série F1 (Génie Mécanique)</option>
                                     <option value="F2">Série F2 (Électronique)</option>
-                                    <option value="G2">Série G2 (Gestion)</option>
+                                    <option value="F3">Série F3 (Électrotechnique)</option>
+                                    <option value="F4">Série F4 (Génie Civil / Bâtiment)</option>
+                                    <option value="G1">Série G1 (Secrétariat)</option>
+                                    <option value="G2">Série G2 (Comptabilité & Gestion)</option>
                                 </select>
                             </div>
                         </div>
@@ -241,8 +245,17 @@
                 { key: "mathematics", label: "Mathématiques", coef: 5, defaultVal: 16.0 },
                 { key: "physics", label: "Physique-Chimie", coef: 4, defaultVal: 14.5 },
                 { key: "mechanics", label: "Génie Mécanique & Construction", coef: 5, defaultVal: 15.0 },
+                { key: "technical_drawing", label: "Dessin Technique", coef: 4, defaultVal: 15.5 },
                 { key: "french", label: "Français", coef: 3, defaultVal: 12.0 },
                 { key: "english", label: "Anglais", coef: 2, defaultVal: 13.0 }
+            ],
+            "F1": [
+                { key: "mechanics", label: "Génie Mécanique & Fabrication", coef: 6, defaultVal: 16.0 },
+                { key: "technical_drawing", label: "Dessin Technique & Schémas", coef: 5, defaultVal: 15.5 },
+                { key: "mathematics", label: "Mathématiques", coef: 4, defaultVal: 13.5 },
+                { key: "physics", label: "Physique Appliquée", coef: 4, defaultVal: 14.0 },
+                { key: "french", label: "Français", coef: 2, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 12.5 }
             ],
             "F2": [
                 { key: "electronics", label: "Électronique & Schémas", coef: 6, defaultVal: 16.5 },
@@ -251,6 +264,30 @@
                 { key: "physics", label: "Physique Appliquée", coef: 4, defaultVal: 13.5 },
                 { key: "french", label: "Français", coef: 2, defaultVal: 12.0 },
                 { key: "english", label: "Anglais", coef: 2, defaultVal: 13.0 }
+            ],
+            "F3": [
+                { key: "electrotechnics", label: "Électrotechnique & Énergie", coef: 6, defaultVal: 16.0 },
+                { key: "technical_drawing", label: "Dessin Technique & Schémas", coef: 4, defaultVal: 15.0 },
+                { key: "mathematics", label: "Mathématiques", coef: 4, defaultVal: 14.0 },
+                { key: "physics", label: "Physique Appliquée", coef: 4, defaultVal: 13.5 },
+                { key: "french", label: "Français", coef: 2, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 12.5 }
+            ],
+            "F4": [
+                { key: "civil_engineering", label: "Génie Civil & Construction", coef: 6, defaultVal: 16.0 },
+                { key: "technical_drawing", label: "Dessin Technique & Bâtiment", coef: 5, defaultVal: 16.5 },
+                { key: "building_tech", label: "Technologie du Bâtiment", coef: 4, defaultVal: 15.0 },
+                { key: "mathematics", label: "Mathématiques", coef: 4, defaultVal: 13.5 },
+                { key: "physics", label: "Physique Appliquée", coef: 3, defaultVal: 13.0 },
+                { key: "french", label: "Français", coef: 2, defaultVal: 12.0 },
+                { key: "english", label: "Anglais", coef: 2, defaultVal: 12.5 }
+            ],
+            "G1": [
+                { key: "secretarial", label: "Techniques de Secrétariat & Bureautique", coef: 6, defaultVal: 16.0 },
+                { key: "french", label: "Français & Rédaction", coef: 5, defaultVal: 15.0 },
+                { key: "economics", label: "Économie & Droit", coef: 4, defaultVal: 14.0 },
+                { key: "english", label: "Anglais Commercial", coef: 4, defaultVal: 14.5 },
+                { key: "accounting", label: "Comptabilité Générale", coef: 3, defaultVal: 13.0 }
             ],
             "G2": [
                 { key: "accounting", label: "Comptabilité & Finance", coef: 6, defaultVal: 16.0 },
