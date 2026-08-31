@@ -1,0 +1,55 @@
+from typing import Tuple, List
+from app.models.schemas import StudentProfile, FieldProfile
+from app.recommendation.translations import translate_key
+
+def calculate_aptitude_score(student: StudentProfile, field: FieldProfile) -> Tuple[float, List[str], List[str]]:
+    positives = []
+    warnings = []
+
+    aptitudes = student.aptitudes
+    field_apts = field.aptitude_profile
+
+    total_score = 0.0
+    total_weights = 0.0
+
+    for apt_name, field_weight in field_apts.items():
+        apt_fr = translate_key(apt_name)
+        declared_val = getattr(aptitudes, f"declared_{apt_name}", 0.0)
+        observed_val = getattr(aptitudes, f"observed_{apt_name}", None)
+
+        if observed_val is not None:
+            effective_apt = 0.7 * observed_val + 0.3 * declared_val
+            positives.append(f"Aptitude mesurée/observée pour {apt_fr} prise en compte.")
+        else:
+            effective_apt = declared_val
+            warnings.append(f"Aptitude {apt_fr} basée uniquement sur une auto-déclaration.")
+
+        total_score += effective_apt * field_weight
+        total_weights += field_weight
+
+    score = total_score / total_weights if total_weights > 0 else 0.5
+    return float(max(0.0, min(1.0, score))), positives, warnings
+
+def calculate_preference_score(student: StudentProfile, field: FieldProfile) -> Tuple[float, List[str], List[str]]:
+    positives = []
+    warnings = []
+    score = 1.0
+
+    pref = student.preferences
+
+    if pref.preferred_study_duration == "short" and field.duration_years > 3:
+        score -= 0.3
+        warnings.append(f"Durée d'étude ({field.duration_years} ans) supérieure à la préférence d'études courtes.")
+    elif pref.preferred_study_duration == "long" and field.duration_years >= 5:
+        positives.append("Filière longue correspondant aux ambitions de l'élève.")
+
+    style_fr = translate_key(field.study_style)
+    if pref.study_style != "balanced" and field.study_style != "balanced":
+        if pref.study_style == field.study_style:
+            score += 0.1
+            positives.append(f"Style de formation ({style_fr}) parfaitement aligné.")
+        else:
+            score -= 0.2
+            warnings.append(f"Divergence entre le style d'apprentissage souhaité et la filière ({style_fr}).")
+
+    return float(max(0.0, min(1.0, score))), positives, warnings
