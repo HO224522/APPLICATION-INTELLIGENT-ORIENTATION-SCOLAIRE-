@@ -2,7 +2,7 @@ from typing import List, Dict, Optional, Any
 from pydantic import BaseModel, Field
 
 class AcademicRecord(BaseModel):
-    subject: str  # e.g., "mathematics", "physics", "french", "philosophy"
+    subject: str  # e.g., "mathematics", "physics", "svt", "french", "english", "philosophy", "history_geo"
     score: float  # Grade out of 20
     coefficient: float = 1.0
 

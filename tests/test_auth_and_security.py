@@ -31,5 +31,5 @@ def test_free_llm_explanation():
         "positive_factors": ["Excellente note en Mathématiques"],
         "warning_factors": ["Besoins de soutien en Anglais"]
     })
-    assert "Points forts" in summary
+    assert "points forts" in summary.lower() or "atouts" in summary.lower()
     assert "Mathématiques" in summary

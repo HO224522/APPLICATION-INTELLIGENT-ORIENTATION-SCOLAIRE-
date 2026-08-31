@@ -131,19 +131,31 @@
                         <div class="row">
                             <div class="col-6 mb-2">
                                 <label class="small text-muted">Mathématiques</label>
-                                <input type="number" step="0.5" class="form-control" id="math_score" value="16.5">
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="math_score" value="16.5">
                             </div>
                             <div class="col-6 mb-2">
                                 <label class="small text-muted">Physique-Chimie</label>
-                                <input type="number" step="0.5" class="form-control" id="phys_score" value="14.0">
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="phys_score" value="14.0">
+                            </div>
+                            <div class="col-6 mb-2">
+                                <label class="small text-muted">SVT (Biologie)</label>
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="svt_score" value="15.0">
                             </div>
                             <div class="col-6 mb-2">
                                 <label class="small text-muted">Français</label>
-                                <input type="number" step="0.5" class="form-control" id="fr_score" value="13.0">
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="fr_score" value="13.0">
+                            </div>
+                            <div class="col-6 mb-2">
+                                <label class="small text-muted">Anglais</label>
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="ang_score" value="14.5">
+                            </div>
+                            <div class="col-6 mb-2">
+                                <label class="small text-muted">Histoire-Géographie</label>
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="hg_score" value="13.5">
                             </div>
                             <div class="col-6 mb-2">
                                 <label class="small text-muted">Philosophie</label>
-                                <input type="number" step="0.5" class="form-control" id="phil_score" value="12.0">
+                                <input type="number" step="0.5" max="20" min="0" class="form-control" id="phil_score" value="12.0">
                             </div>
                         </div>
 
@@ -231,21 +243,31 @@
         function buildStudentProfileFromForm() {
             const math = parseFloat(document.getElementById('math_score').value) || 10;
             const phys = parseFloat(document.getElementById('phys_score').value) || 10;
+            const svt = parseFloat(document.getElementById('svt_score').value) || 10;
             const fr = parseFloat(document.getElementById('fr_score').value) || 10;
+            const ang = parseFloat(document.getElementById('ang_score').value) || 10;
+            const hg = parseFloat(document.getElementById('hg_score').value) || 10;
             const phil = parseFloat(document.getElementById('phil_score').value) || 10;
+
+            const records = [
+                { subject: "mathematics", score: math, coefficient: 4.0 },
+                { subject: "physics", score: phys, coefficient: 4.0 },
+                { subject: "svt", score: svt, coefficient: 4.0 },
+                { subject: "french", score: fr, coefficient: 3.0 },
+                { subject: "english", score: ang, coefficient: 2.0 },
+                { subject: "history_geo", score: hg, coefficient: 3.0 },
+                { subject: "philosophy", score: phil, coefficient: 2.0 }
+            ];
+
+            const overallAvg = (math*4 + phys*4 + svt*4 + fr*3 + ang*2 + hg*3 + phil*2) / 22.0;
 
             return {
                 student_id: document.getElementById('student_id').value,
                 academic: {
                     level: document.getElementById('level').value,
                     series: document.getElementById('series').value,
-                    records: [
-                        { subject: "mathematics", score: math, coefficient: 4.0 },
-                        { subject: "physics", score: phys, coefficient: 4.0 },
-                        { subject: "french", score: fr, coefficient: 3.0 },
-                        { subject: "philosophy", score: phil, coefficient: 2.0 }
-                    ],
-                    overall_average: (math + phys + fr) / 3.0,
+                    records: records,
+                    overall_average: overallAvg,
                     progression_trend: 0.5
                 },
                 interests: {
@@ -299,10 +321,12 @@
             document.getElementById('recCountBadge').innerText = `${recs.length} filières trouvées`;
             container.innerHTML = '';
 
+            const studentSeries = (currentStudentProfile && currentStudentProfile.academic && currentStudentProfile.academic.series) ? currentStudentProfile.academic.series : '';
+
             recs.forEach(item => {
                 const percent = (item.global_score * 100).toFixed(1);
                 const eligBadge = item.eligibility ?
-                    `<span class="badge bg-success">Admissible (BAC ${currentStudentProfile.academic.series})</span>` :
+                    `<span class="badge bg-success">Admissible (Série ${studentSeries})</span>` :
                     `<span class="badge bg-danger">Inéligible Officiellement</span>`;
 
                 let posHtml = item.explanation.positive_factors.map(p => `<div class="positive-factor">✓ ${p}</div>`).join('');
@@ -377,7 +401,11 @@
                     body: JSON.stringify({ message: msg })
                 });
                 const data = await response.json();
-                chatBox.innerHTML += `<div class="chat-msg-bot"><b>Assistant :</b> ${data.assistant_response}</div>`;
+                let formatted = data.assistant_response
+                    .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+                    .replace(/\*(.*?)\*/g, '<i>$1</i>')
+                    .replace(/\n/g, '<br>');
+                chatBox.innerHTML += `<div class="chat-msg-bot"><b>Assistant :</b> ${formatted}</div>`;
                 chatBox.scrollTop = chatBox.scrollHeight;
             } catch (e) {
                 chatBox.innerHTML += `<div class="chat-msg-bot text-danger">Erreur de connexion avec l'assistant.</div>`;
